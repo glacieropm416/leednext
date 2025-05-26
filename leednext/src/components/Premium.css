@@ -1,0 +1,104 @@
+.premium-page {
+    background-color: #242424;
+    color: #ddd;
+    text-align: center;
+    padding: 50px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .title {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #ccc;
+  }
+  
+  .pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .plan {
+    background: white;
+    border-radius: 15px;
+    width: 320px;
+    padding: 30px 25px;
+    color: #222;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+  .plan.monthly {
+    background: #f9f9f9;
+  }
+  
+  .plan.yearly {
+    background: linear-gradient(90deg, #ffc680, #ffb071);
+    box-shadow: 0 0 30px rgba(255, 160, 50, 0.8);
+    position: relative;
+  }
+  
+  .popular-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #fff3cd;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
+  .plan h2 {
+    margin-bottom: 10px;
+  }
+  
+  .plan p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+  
+  .price {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+  
+  .price small {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .usd-note {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  .subscribe-btn {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 0;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: #444;
+  }
+  

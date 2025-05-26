@@ -4,8 +4,7 @@ import CodeEditor from '../components/CodeEditor';
 import './Home.css';
 import CompletionGrid from '../pages/CompletionGrid';
 
-
-function Home() {
+function Home({ darkMode }) {
   const [code, setCode] = useState('// Write your code here');
   const [streak, setStreak] = useState(1); // Start from Day 1
 
@@ -18,7 +17,7 @@ function Home() {
   }, []);
 
   return (
-    <div className="home-container">
+    <div className={`home-container ${darkMode ? 'dark-mode' : ''}`}>
       {/* Smoke Particles Background */}
       <Particles />
 
@@ -26,20 +25,18 @@ function Home() {
       <div className="content-wrapper">
         {/* Centered Welcome Header */}
         <div className="welcome-section">
-  <h1 className="welcome-title">
-    Welcome to <span className="brand-name">LeedNext</span>
-  </h1>
+          <h1 className="welcome-title">
+            Welcome to <span className="brand-name">LeedNext</span>
+          </h1>
 
-  {/* New Flex Row for Streak + CompletionGrid */}
-  <div className="streak-grid-row">
-  <div className="streak-badge">
-    🔥 Daily Streak: {streak} day{streak !== 1 ? 's' : ''}
-  </div>
-  <CompletionGrid />
-</div>
-
-</div>
-
+          {/* New Flex Row for Streak + CompletionGrid */}
+          <div className="streak-grid-row">
+            <div className="streak-badge">
+              🔥 Daily Streak: {streak} day{streak !== 1 ? 's' : ''}
+            </div>
+            <CompletionGrid />
+          </div>
+        </div>
 
         {/* Daily Challenge */}
         <section className="daily-challenge">

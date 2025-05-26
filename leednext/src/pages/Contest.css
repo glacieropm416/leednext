@@ -1,27 +1,78 @@
 .contest-container {
   padding: 20px;
-  background-color: #1e1e2f;
-  color: white;
-  min-height: 100vh;
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.contest-featured-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.featured-contests {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.featured-card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 300%;
+  max-width: 400px;
+  flex: 1 1 30%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.featured-image {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Image-specific background classes */
+.img-weekly-291 {
+  background-image: url("https://assets.leetcode.com/contest/weekly-contest-291/card_img_1654267951.png");
+}
+
+.img-weekly-290 {
+  background-image: url("https://assets.leetcode.com/contest-config/contest/bc_card_img.png");
+}
+
+.img-biweekly-85 {
+  background-image: url("https://assets.leetcode.com/contest/biweekly-contest-85/card_img_1659801683.png");
+}
+
+.contest-info {
+  padding: 15px;
+}
+
+.contest-info h3 {
+  margin: 0 0 8px;
+}
+
+.contest-info p {
+  font-size: 14px;
+  color: #ccc;
 }
 
 .contest-box {
-  background-color: #2e2e3f;
-  padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  width: 90%;
-  max-width: 1000px;
+  margin-top: 40px;
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 12px;
 }
 
 .contest-heading {
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #f0f0f0;
+  margin-bottom: 15px;
+  font-size: 20px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 5px;
 }
 
 .contest-table {
@@ -31,19 +82,16 @@
 
 .contest-table th,
 .contest-table td {
-  padding: 15px;
+  padding: 12px 10px;
+  border-bottom: 1px solid #333;
   text-align: left;
 }
 
-.contest-table thead {
-  background-color: #3f3f5e;
-}
-
-.contest-table tbody tr:nth-child(even) {
-  background-color: #383852;
-}
-
 .contest-table a {
-  color: #61dafb;
+  color: #58a6ff;
   text-decoration: none;
+}
+
+.contest-table a:hover {
+  text-decoration: underline;
 }

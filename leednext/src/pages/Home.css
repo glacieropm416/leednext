@@ -8,7 +8,7 @@
 /* Dark Mode Support */
 @media (prefers-color-scheme: dark) {
   .home-container {
-    background: linear-gradient(to right, #1f2937, #111827);
+    background: linear-gradient(to right, #dbdde1, #111827);
   }
 }
 
@@ -120,6 +120,7 @@
   max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
+  color: #1b0cf3;
 }
 /* Calendar Styles */
 .header-widgets {
@@ -338,4 +339,20 @@
   color: white;
   border-radius: 8px;
   text-align: center;
+}
+.home-container.dark-mode {
+  background-color: #121212;
+  color: #eee;
+}
+
+/* You can customize more styles like text colors, card backgrounds, etc. */
+.challenge-card {
+  background-color: white;
+  color: black;
+  /* normal light mode styles */
+}
+
+.home-container.dark-mode .challenge-card {
+  background-color: #1e1e1e;
+  color: #ddd;
 }

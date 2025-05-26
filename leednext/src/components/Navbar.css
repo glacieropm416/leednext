@@ -1,129 +1,94 @@
-/* General navbar styles */
 .navbar {
-    background-color: #1f3a58; /* Dark blue */
-    padding: 1rem 2rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
-  }
-  
-  .navbar-dark {
-    background-color: #2c2f3f; /* Darker background for dark mode */
-  }
-  
-  .navbar-light {
-    background-color: #1f3a58; /* Lighter background for light mode */
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 100%;
-  }
-  
-  .logo h1 {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #fff;
-    text-align: center;
-    flex: 1;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-link {
-    color: #fff;
-    font-size: 1rem;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  .nav-link:hover {
-    background-color: #ffb84d;
-  }
-  
-  .actions {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-  }
-  
-  .theme-toggle {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 5px;
-  }
-  
-  .icon {
-    width: 20px;
-    height: 20px;
-    color: #fff;
-  }
-  
-  .profile-img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-  }
-  /* Navbar.css */
-.premium-btn {
-  background-color: #f39c12; /* Golden color */
-  color: white;
-  padding: 8px 16px;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: flex;
+  justify-content: center;
+  background-color: #1e1e1e;
+  padding: 15px 20px;
 }
 
-.premium-btn:hover {
-  background-color: #e67e22; /* Darker golden color on hover */
-  transform: scale(1.05);
+.navbar-light {
+  background-color: #1adccc;
+  color: #222;
 }
 
-.premium-btn:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(243, 156, 18, 0.5);
+.navbar-dark {
+  background-color: #222;
+  color: #eee;
 }
-.profile-section {
-  position: relative;
-  display: inline-block;
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  margin: 0;
+  cursor: pointer;
+  color: inherit;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff9900;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
 }
 
 .profile-img {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   cursor: pointer;
 }
 
-.profile-info {
-  position: absolute;
-  top: 50px;
-  right: 0;
-  background: white;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  width: 200px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  z-index: 10;
-}
-
-.navbar-dark .profile-info {
-  background: #333;
+.premium-btn {
+  background: linear-gradient(90deg, #ffa726, #ff7043);
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
   color: white;
-  border-color: #555;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 15px;
 }
 
-  
+.premium-btn:hover {
+  background: linear-gradient(90deg, #ff5722, #f4511e);
+}

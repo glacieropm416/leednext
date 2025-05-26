@@ -1,8 +1,10 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Moon, Sun } from 'lucide-react';
 import './Navbar.css';
 
 function Navbar({ darkMode, setDarkMode }) {
+  const navigate = useNavigate();
+
   return (
     <nav className={`navbar ${darkMode ? 'navbar-dark' : 'navbar-light'}`}>
       <div className="container">
@@ -14,6 +16,7 @@ function Navbar({ darkMode, setDarkMode }) {
           <li><Link to="/" className="nav-link">Home</Link></li>
           <li><Link to="/problems" className="nav-link">Problems</Link></li>
           <li><Link to="/contest" className="nav-link">Contest</Link></li>
+          <li><Link to="/explore" className="nav-link">Explore</Link></li> 
         </ul>
 
         <div className="actions">
@@ -25,7 +28,12 @@ function Navbar({ darkMode, setDarkMode }) {
             <img src="profile.png" alt="profile" className="profile-img" />
           </Link>
 
-          <button className="premium-btn">Go Premium</button>
+          <button 
+            className="premium-btn" 
+            onClick={() => navigate('/premium')}
+          >
+            Go Premium
+          </button>
         </div>
       </div>
     </nav>
