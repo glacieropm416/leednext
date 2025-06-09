@@ -35,18 +35,7 @@ const courses = [
 const Explore = () => {
   return (
     <div className="explore-wrapper">
-      <video
-        className="background-video"
-        autoPlay
-        loop
-        muted
-        playsInline
-      >
-        <source
-          src="https://v.ftcdn.net/10/81/90/28/700_F_1081902801_2ecmUJ11y720Co5o0gQ25skFgz0m91DJ_ST.mp4"
-          type="video/mp4"
-        />
-      </video>
+      {/* Removed the background video here */}
 
       <div className="explore-container">
         {courses.map((course, index) => {

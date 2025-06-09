@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Particles from './particles';
+
 import CodeEditor from '../components/CodeEditor';
 import './Home.css';
 import CompletionGrid from '../pages/CompletionGrid';
@@ -19,7 +19,7 @@ function Home({ darkMode }) {
   return (
     <div className={`home-container ${darkMode ? 'dark-mode' : ''}`}>
       {/* Smoke Particles Background */}
-      <Particles />
+      
 
       {/* Content */}
       <div className="content-wrapper">

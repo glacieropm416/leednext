@@ -1,0 +1,91 @@
+{
+  "hash": "5802252b",
+  "configHash": "99e26734",
+  "lockfileHash": "e9395514",
+  "browserHash": "652de713",
+  "optimized": {
+    "ace-builds/src-noconflict/mode-c_cpp": {
+      "src": "../../node_modules/ace-builds/src-noconflict/mode-c_cpp.js",
+      "file": "ace-builds_src-noconflict_mode-c_cpp.js",
+      "fileHash": "8e117ebd",
+      "needsInterop": true
+    },
+    "ace-builds/src-noconflict/mode-java": {
+      "src": "../../node_modules/ace-builds/src-noconflict/mode-java.js",
+      "file": "ace-builds_src-noconflict_mode-java.js",
+      "fileHash": "37a8d9d9",
+      "needsInterop": true
+    },
+    "ace-builds/src-noconflict/mode-javascript": {
+      "src": "../../node_modules/ace-builds/src-noconflict/mode-javascript.js",
+      "file": "ace-builds_src-noconflict_mode-javascript.js",
+      "fileHash": "ca425b86",
+      "needsInterop": true
+    },
+    "ace-builds/src-noconflict/mode-mysql": {
+      "src": "../../node_modules/ace-builds/src-noconflict/mode-mysql.js",
+      "file": "ace-builds_src-noconflict_mode-mysql.js",
+      "fileHash": "10a4d4b6",
+      "needsInterop": true
+    },
+    "ace-builds/src-noconflict/mode-python": {
+      "src": "../../node_modules/ace-builds/src-noconflict/mode-python.js",
+      "file": "ace-builds_src-noconflict_mode-python.js",
+      "fileHash": "b4ea0459",
+      "needsInterop": true
+    },
+    "ace-builds/src-noconflict/theme-monokai": {
+      "src": "../../node_modules/ace-builds/src-noconflict/theme-monokai.js",
+      "file": "ace-builds_src-noconflict_theme-monokai.js",
+      "fileHash": "0e50ec17",
+      "needsInterop": true
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "2e9e2089",
+      "needsInterop": false
+    },
+    "lucide-react": {
+      "src": "../../node_modules/lucide-react/dist/esm/lucide-react.js",
+      "file": "lucide-react.js",
+      "fileHash": "ab342389",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "3c865863",
+      "needsInterop": true
+    },
+    "react-ace": {
+      "src": "../../node_modules/react-ace/lib/index.js",
+      "file": "react-ace.js",
+      "fileHash": "5bd5ac2e",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "b63953d2",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "0e0641b8",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-5HNGYYSW": {
+      "file": "chunk-5HNGYYSW.js"
+    },
+    "chunk-TVFQMRVC": {
+      "file": "chunk-TVFQMRVC.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+}
